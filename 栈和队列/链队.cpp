@@ -1,12 +1,11 @@
-#include<iostream>//15180073
-#include<string>
+#include<iostream>
 using namespace std;
 typedef char ElemType; 
 typedef struct LNode
 {
 	ElemType data;
 	struct LNode *next;//next指向struct Lnode结构体变量 
-}LNode,*LinkNode;//结构体类型LNode 别名为*LinkList 
+}LNode,*LinkNode;//结构体类型LNode 别名为*LinkNode 
 typedef struct{
 	LNode *front,*rear;
 }LinkQueue;
